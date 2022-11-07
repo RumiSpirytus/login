@@ -1,0 +1,78 @@
+body {
+    background-color: lavender;
+}
+.container{
+        margin: auto;
+        width: 787.5px;
+        height: 50% ;
+        border: 5.25px solid green;
+        padding: 17.5px;
+        margin-top: 175px; 
+}
+.begin{
+    /* position: relative;  */
+    height: 87.5px; 
+    top: 0px;
+    left: 0px; 
+    right: 0px; 
+}
+.h1{
+    color: black;
+    text-align: center;
+    font-size: 7rem; 
+}
+.login-word{
+    text-align: center;
+}
+.form-item{
+    display: grid;
+    grid-template-columns: 26.25px 1.75fr;
+    grid-gap: 8.75px 0px;
+    width: 100%;
+    margin-bottom: 17.5px;
+}
+.form-item-label{
+    width: 87.5px; 
+    /* margin-bottom: 20px; */
+}
+
+
+.email-type{
+    margin: auto; 
+    width: 50%; 
+}
+.password-type{
+    margin: auto; 
+    width: 50%; 
+}
+.checkbox-type{
+    margin:auto;
+    width: 50%;
+    padding: 17.5px 0;
+
+}
+.checkbox{
+    margin: 0px auto;
+    width: max-content;
+    margin-bottom: 6px;
+}
+.signin-container{
+    margin: auto;
+    width: max-content;
+    margin-bottom: 5px;
+}
+.signin-type{
+    cursor: pointer;
+}
+.facebook-link, 
+.google-link{
+    margin: auto; 
+    width: max-content;
+    margin-bottom: 5px;
+}
+
+.login-right{
+    height: 1.75px;
+    background: black;
+    margin-top: 87.5px;
+}
